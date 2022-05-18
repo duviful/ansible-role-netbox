@@ -329,6 +329,8 @@ netbox_remote_auth:
   auto_create_user: True
   default_groups: []
   default_permissions: {}
+  # social_auth_username_is_full_email: False
+
 
 # This repository is used to check whether there is a new release of NetBox available.
 # Set to None to disable the version check or use the URL below to check for release
